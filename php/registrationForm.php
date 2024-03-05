@@ -6,6 +6,14 @@
     <title>Registration Page</title>
 </head>
 <body>
+    <nav>
+        <a href="../index.php">Homepage</a>
+        <a href="./registrationForm.php">Registration</a>
+        <a href="./loginForm.php">Login</a>
+    </nav>
+
+
+
     <form id="form" action="registration.php" method="post">
         
         <label for="username">Username</label>
