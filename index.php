@@ -13,6 +13,6 @@
     </form>
     <a href="register.php">Registrati</a>
     <a href="forgotPassword.php">Password dimenticata</a>
-    <a href="forgotUsername.php">Reset password</a>
+    <a href="forgotUsername.php"></a>
 </body>
 </html>
