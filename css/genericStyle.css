@@ -58,3 +58,10 @@ form {
     flex-direction: column;
     justify-content: center;
 }
+
+form > div {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+}

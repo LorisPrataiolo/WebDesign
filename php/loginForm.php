@@ -39,12 +39,17 @@
         <fieldset class="formField">
             <legend>Login</legend>
             <form id="form" action="./phpScripts/login.php" method="post">
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Email">
                 
-                <label for="password">Password</label>
-                <input type="password" name="password" placeholder="Password">
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
                 
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+
                 <input type="submit" value="Login">
             </form>
 
