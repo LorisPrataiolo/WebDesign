@@ -6,6 +6,12 @@
     <title>Forgot Password Page</title>
 </head>
 <body>
+
+    <nav>
+        <a href="../index.php" id="navButton">Homepage</a>
+        <a href="./registrationForm.php" id="navButton" >Registration</a>
+        <a href="./loginForm.php" id="navButton">Login</a>
+    </nav>
     
 </body>
 </html>
