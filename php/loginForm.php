@@ -47,6 +47,8 @@
                 
                 <input type="submit" value="Login">
             </form>
+
+            <a href="./forgotPassForm.php">Forgot your password?</a>
         </fieldset>
     </main>
 
