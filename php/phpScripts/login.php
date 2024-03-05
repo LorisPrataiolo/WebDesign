@@ -16,6 +16,7 @@ if (password_verify($password, $user['password'])) {
     echo "User logged in";
     $_SESSION['email'] = $email;
     header("../../index.php");
+    exit();
 } else {
     echo "Wrong credentials";
 }
