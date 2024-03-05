@@ -29,6 +29,13 @@
     </nav>
 
     <main>
+        <?php
+            if(isset($_SESSION["error"])){
+                echo "<p>" . $_SESSION["error"] . "</p>";
+                unset($_SESSION["error"]);
+            }
+        ?>
+
         <fieldset class="formField">
             <legend>Login</legend>
             <form id="form" action="./phpScripts/login.php" method="post">
