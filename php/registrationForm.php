@@ -54,7 +54,6 @@
             </form> 
 
             <a href="./loginForm.php">Already registered?</a>
-            <a href="./forgotPassForm.php">Forgot your password?</a>
 
         </fieldset>
     </main>
