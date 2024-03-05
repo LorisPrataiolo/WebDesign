@@ -15,7 +15,7 @@ if ($user == null) {
 if (password_verify($password, $user['password'])) {
     echo "User logged in";
     $_SESSION['email'] = $email;
-    header("../../index.php");
+    header("Location: ../../index.php");
     exit();
 } else {
     echo "Wrong credentials";
