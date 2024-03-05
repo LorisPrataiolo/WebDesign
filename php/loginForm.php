@@ -10,21 +10,17 @@
 <body>
     <h1>Log In</h1>
 
-    <form action="access.php" method="post">
-        <div>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-        </div>
+    <form id="form" action="registration.php">
 
-        <div>
-            <label for="pass">password</label>
-            <input type="pass" id="pass" name="pass">
-        </div>
 
-        <input type="submit">
-   
-
-    </form>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Email">
+        
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Password">
+        
+        
+        <input type="submit" value="Register">
+    </form> 
 </body>
-
 </html>
