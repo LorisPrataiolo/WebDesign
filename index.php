@@ -21,7 +21,7 @@
         <section>
             <h2> Presentazione del sito </h2>
             <p> Descrizione del sito </p>
-            <a href="./php/registrationForm.php">Registrati</a>
+            <p> Sito in costruzione </p>
         </section>
     <main>
 
