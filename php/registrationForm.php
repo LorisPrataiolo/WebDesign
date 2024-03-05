@@ -30,26 +30,38 @@
         <fieldset class="formField">
             <legend>Registration</legend>
 
-            <form id="form" action="./phpScripts/registration.php" method="post">
+            <form action="./phpScripts/registration.php" method="post">
                 
-                <label for="username">Username</label>
-                <input type="text" name="username" placeholder="Username">
-                
-                <label for="name">Name</label>
-                <input type="text" name="name" placeholder="Name">
-                
-                <label for="surname">Surname</label>
-                <input type="text" name="surname" placeholder="Surname">
-                
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Email">
-                
-                <label for="password">Password</label>
-                <input type="password" name="password" placeholder="Password">
-                
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="confirmPassword" placeholder="Confirm Password">
-                
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username">
+                </div>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+
+                <div>
+                    <label for="surname">Surname</label>
+                    <input type="text" name="surname" placeholder="Surname">
+                </div> 
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password">
+                </div>
+
+                <div>
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" placeholder="Confirm Password">
+                </div>
+
                 <input type="submit" value="Register">
             </form> 
 

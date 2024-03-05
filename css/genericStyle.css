@@ -39,3 +39,21 @@ nav {
     margin: 0;
     padding: 0;
 }
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formField {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
