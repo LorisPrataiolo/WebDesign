@@ -54,4 +54,20 @@ function getUser($email) {
     closeConnection($conn);
 }
 
+function updateUserPassword($email, $password) {
+    $conn = connection();
+
+    $stmt = $conn->prepare("UPDATE users SET password = ? WHERE email = ?");
+    $stmt->bind_param("ss", $password, $email);
+    $stmt->execute();
+
+    if ($stmt->affected_rows > 0) {
+        echo "Password updated successfully";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    closeConnection($conn);
+}
+
 ?>
