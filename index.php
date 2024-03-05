@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    $isSessionSet = isset($_SESSION["email"]);
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +17,17 @@
 
     <nav>
         <a href="./index.php" id="navButton">Homepage</a>
-        <a href="./php/registrationForm.php" id="navButton" >Registration</a>
-        <a href="./php/loginForm.php" id="navButton">Login</a>
+        <?php
+            if($isSessionSet) {
+                echo "<i>Welcome" . $_SESSION["email"] . "</i>";
+                echo "<a href='./php/logout.php' id='navButton'>Logout</a>";
+            }
+            else {
+                echo "<a href='./php/registrationForm.php' id='navButton'>Registration</a>";
+                echo "<a href='./php/loginForm.php' id='navButton'>Login</a>";
+            }
+        ?>
+
     </nav>
     
     <header>
