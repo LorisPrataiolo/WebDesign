@@ -8,9 +8,9 @@
 <body>
 
     <nav>
-        <a href="./index.php">Homepage</a>
-        <a href="./php/registrationForm.php">Registration</a>
-        <a href="./php/loginForm.php">Login</a>
+        <a href="./index.php" id="navButton">Homepage</a>
+        <a href="./php/registrationForm.php" id="navButton" >Registration</a>
+        <a href="./php/loginForm.php" id="navButton">Login</a>
     </nav>
     
     <header>
@@ -21,7 +21,7 @@
         <section>
             <h2> Presentazione del sito </h2>
             <p> Descrizione del sito </p>
-            <a href="./php/registrationForm.php">Registrati</a>
+            <p> Sito in costruzione </p>
         </section>
     <main>
 
