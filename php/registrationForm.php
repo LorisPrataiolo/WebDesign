@@ -6,7 +6,7 @@
     <title>Registration Page</title>
 </head>
 <body>
-    <form id="form" action="registration.php">
+    <form id="form" action="registration.php" method="post">
         
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="Username">
