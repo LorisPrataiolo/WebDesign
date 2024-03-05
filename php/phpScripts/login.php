@@ -18,7 +18,9 @@ if (password_verify($password, $user['password'])) {
     header("Location: ../../index.php");
     exit();
 } else {
-    echo "Wrong credentials";
+    $_SESSION['error'] = "Invalid email or password";
+    header("Location: ../loginForm.php");
+    exit();
 }
 
 ?>
