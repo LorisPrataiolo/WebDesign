@@ -1,8 +1,15 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/genericStyle.css">
+    
     <title>Registration Page</title>
 </head>
 <body>
@@ -14,7 +21,7 @@
 
 
 
-    <form id="form" action="registration.php" method="post">
+    <form id="form" action="./phpScripts/registration.php" method="post">
         
         <label for="username">Username</label>
         <input type="text" name="username" placeholder="Username">
