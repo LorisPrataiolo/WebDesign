@@ -20,7 +20,7 @@
         <?php
             if($isSessionSet) {
                 echo "<i>Welcome" . $_SESSION["email"] . "</i>";
-                echo "<a href='./php/logout.php' id='navButton'>Logout</a>";
+                echo "<a href='./php/phpScripts/logout.php' id='navButton'>Logout</a>";
             }
             else {
                 echo "<a href='./php/registrationForm.php' id='navButton'>Registration</a>";
