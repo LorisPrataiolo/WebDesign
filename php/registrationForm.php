@@ -6,7 +6,11 @@
     <title>Registration Page</title>
 </head>
 <body>
-    <?php require("./sharedFiles/nav.php") ?>
+    <nav>
+        <a href="../index.php">Homepage</a>
+        <a href="./registrationForm.php">Registration</a>
+        <a href="./loginForm.php">Login</a>
+    </nav>
 
 
 
