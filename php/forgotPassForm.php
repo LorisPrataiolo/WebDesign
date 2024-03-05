@@ -26,5 +26,12 @@
         <a href="./loginForm.php" id="navButton">Login</a>
     </nav>
 
+    <h1>Forgot Password</h1>
+
+    <form action="../php/phpScripts/forgotPass.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Send">
+    </form>
 </body>
 </html>

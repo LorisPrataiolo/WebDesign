@@ -1,4 +1,7 @@
 <?php
+include_once 'db.php';
+
+$email = $_POST['email'];
 $user = getUser($email);
 
 if ($user == null) {
