@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'db.php';
 
 $username = $_POST['username'];

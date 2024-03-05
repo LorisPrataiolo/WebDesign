@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'db.php';
 
 $email = $_POST['email'];
@@ -13,7 +14,7 @@ if ($user == null) {
 
 if (password_verify($password, $user['password'])) {
     echo "User logged in";
-    //session_start();
+    $_SESSION['email'] = $email;
 } else {
     echo "Wrong credentials";
 }
