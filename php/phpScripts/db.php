@@ -4,7 +4,7 @@ function connection() {
     $servername = "localhost";
     $dbusername = "webDesignAdmin";
     $dbpassword = "admin";
-    $dbname = "webDesign";
+    $dbname = "webDesignDB";
 
     $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 
