@@ -10,6 +10,10 @@ $confirmPassword = $_POST['confirmPassword'];
 
 if ($password == $confirmPassword) {
     $password = password_hash($password, PASSWORD_DEFAULT);
+    if (getUser($email) != null) {
+        echo "User already exists";
+        exit();
+    }
     insertUser($username, $name, $surname, $email, $password);
 } else {
     echo "Error";
