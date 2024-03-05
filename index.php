@@ -8,9 +8,9 @@
 <body>
 
     <nav>
-        <a href="./index.php">Homepage</a>
-        <a href="./php/registrationForm.php">Registration</a>
-        <a href="./php/loginForm.php">Login</a>
+        <a href="./index.php" id="navButton">Homepage</a>
+        <a href="./php/registrationForm.php" id="navButton" >Registration</a>
+        <a href="./php/loginForm.php" id="navButton">Login</a>
     </nav>
     
     <header>
