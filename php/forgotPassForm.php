@@ -26,5 +26,9 @@
         <a href="./loginForm.php" id="navButton">Login</a>
     </nav>
 
+    <main>
+        <p>Sito in costruzione</p>
+    </main>
+
 </body>
 </html>
