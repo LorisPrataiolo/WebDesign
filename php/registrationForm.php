@@ -32,7 +32,7 @@
 
             <form action="./phpScripts/registration.php" method="post">
                 
-                <div>
+                <div id="">
                     <label for="username">Username</label>
                     <input type="text" name="username" placeholder="Username">
                 </div>
