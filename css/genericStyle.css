@@ -1,7 +1,6 @@
 #NavButton:hover{
     
     color: rgb(177, 224, 193);
-    border-bottom: solid 0.5px rgba(10,10,10,1.0);
     background-color: rgba(249,246, 239, 0.5);
 
 }
