@@ -1,5 +1,7 @@
 <?php
     session_start();
+
+    $isSessionSet = isset($_SESSION["email"]);
 ?>
 
 <!DOCTYPE html>

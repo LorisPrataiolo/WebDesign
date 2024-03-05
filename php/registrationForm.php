@@ -1,3 +1,9 @@
+<?php
+    session_start();
+
+    $isSessionSet = isset($_SESSION["email"]);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,7 +48,7 @@
                 
                 <input type="submit" value="Register">
             </form> 
-            
+
         </fieldset>
     </main>
 </body>
