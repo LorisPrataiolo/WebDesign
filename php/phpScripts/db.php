@@ -22,12 +22,14 @@ function closeConnection($conn) {
 function insertUser($username, $name, $surname, $email, $password) {
     $conn = connection();
 
-    $sql = "INSERT INTO users (username, name, surname, email, password) VALUES ('$username', '$name', '$surname', '$email', '$password')";
+    $stmt = $conn->prepare("INSERT INTO users (username, name, surname, email, password) VALUES (?, ?, ?, ?, ?)");
+    $stmt->bind_param("sssss", $username, $name, $surname, $email, $password);
+    $stmt->execute();
 
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+    if ($stmt->affected_rows > 0) {
+        echo "User inserted successfully";
     } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
+        echo "Error: " . $stmt->error;
     }
 
     closeConnection($conn);
