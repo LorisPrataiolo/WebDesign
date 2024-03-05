@@ -2,6 +2,10 @@
     session_start();
 
     $isSessionSet = isset($_SESSION["email"]);
+
+    if($isSessionSet) {
+        header("Location: ../index.php");
+    }
 ?>
 
 <!DOCTYPE html>
@@ -16,9 +20,9 @@
 </head>
 <body>
     <nav>
-        <a href="../index.php">Homepage</a>
-        <a href="./registrationForm.php">Registration</a>
-        <a href="./loginForm.php">Login</a>
+        <a href="../index.php" id="navButton">Homepage</a>
+        <a href="./registrationForm.php" id="navButton">Registration</a>
+        <a href="./loginForm.php" id="navButton">Login</a>
     </nav>
 
 

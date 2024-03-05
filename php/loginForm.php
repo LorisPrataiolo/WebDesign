@@ -2,6 +2,10 @@
     session_start();
 
     $isSessionSet = isset($_SESSION["email"]);
+
+    if($isSessionSet) {
+        header("Location: ../index.php");
+    }
 ?>
 
 <!DOCTYPE html>
