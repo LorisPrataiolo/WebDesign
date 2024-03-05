@@ -34,6 +34,7 @@
                 
                 <input type="submit" value="Login">
             </form>
+        </fieldset>
     </main>
 
 </body>
