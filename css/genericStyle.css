@@ -1,6 +1,6 @@
 #navButton:hover{
     
-    color: rgb(177, 224, 193);
+    color: rgb(164, 225, 184);
     background-color: rgba(249,246, 239, 0.5);
 
 }
@@ -12,8 +12,7 @@
     margin-top: 40px;
     margin-left: 0%;
     padding: 0px;
-    background-color: rgb(249, 245, 245);
-    color: rgb(71, 69, 118);
+    color: rgb(227, 227, 231);
     font-family: sans-serif;
     font-weight: light;
     font-size: 15px;
@@ -21,5 +20,7 @@
     cursor: pointer;
 }
 
-
+.nav{
+    background-color: rgb(185, 152, 212);
+}
 
