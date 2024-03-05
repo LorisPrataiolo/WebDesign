@@ -15,6 +15,7 @@ if ($password == $confirmPassword) {
         exit();
     }
     insertUser($username, $name, $surname, $email, $password);
+    header("Location: ../loginForm.php");
 } else {
     echo "Error";
 }
