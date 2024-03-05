@@ -6,6 +6,10 @@
     <title>Registration Page</title>
 </head>
 <body>
+    <?php require("./sharedFiles/nav.php") ?>
+
+
+
     <form id="form" action="registration.php" method="post">
         
         <label for="username">Username</label>
