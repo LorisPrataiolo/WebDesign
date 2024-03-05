@@ -8,19 +8,13 @@
 
 
 <body>
-    <h1>Log In</h1>
-
-    <form id="form" action="registration.php">
-
-
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Email">
-        
-        <label for="password">Password</label>
+    <form action="login.php" method="post">
+        <input type="text" name="username" placeholder="Username">
         <input type="password" name="password" placeholder="Password">
-        
-        
-        <input type="submit" value="Register">
-    </form> 
+        <input type="submit" value="Login">
+    </form>
+    <a href="register.php">Registrati</a>
+    <a href="forgotPassword.php">Password dimenticata</a>
+    <a href="forgotUsername.php"></a>
 </body>
 </html>
